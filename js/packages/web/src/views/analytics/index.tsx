@@ -238,17 +238,17 @@ const MemoizedBar = React.memo(
       ],
     };
 
-    const histoOptions = {
-      scales: {
-        yAxes: [
-          {
-            ticks: {
-              beginAtZero: true,
-            },
-          },
-        ],
-      },
-    };
+   // const histoOptions = {
+   //   scales: {
+   //     yAxes: [
+   //       {
+   //         ticks: {
+   //           beginAtZero: true,
+   //         },
+   //       },
+   //     ],
+   //   },
+   // };
 
     return <Bar data={histoData} options={histoOptions} />;
   },
